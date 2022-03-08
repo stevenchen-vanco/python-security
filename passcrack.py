@@ -5,7 +5,7 @@ pass_found = 0
  
 input_hash = input("Enter the hashed password:")
  
-pass_doc = input("\nEnter passwords filename including path(root / home/):")
+pass_doc = input("\nEnter wordlist path:")
   
 try:
     

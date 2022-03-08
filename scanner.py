@@ -1,12 +1,13 @@
 import nmap
+import sys
 
 portscan = nmap.PortScanner()
 
-target=input("Enter the IP to scan: ")
+target=input("Enter a target IP to scan: ")
 target_port=input("Enter the port range: ")
 
 if not target:
-    target='127.0.0.1'
+    return sys.exit("No target specified")
 
 if not target_port:
     target_port='1-1024'
