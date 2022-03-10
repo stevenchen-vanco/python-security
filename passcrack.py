@@ -3,7 +3,7 @@ print("**************PASSWORD CRACKER ******************")
 
 pass_found = 0                                     
  
-input_hash = input("Enter the hashed password:")
+input_hash = input("Enter the md5 hashed password:")
  
 pass_doc = input("\nEnter wordlist path:")
   
