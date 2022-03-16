@@ -7,7 +7,7 @@ target=input("Enter a target IP to scan: ")
 target_port=input("Enter the port range: ")
 
 if not target:
-    return sys.exit("No target specified")
+    sys.exit("No target specified")
 
 if not target_port:
     target_port='1-1024'
